@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+
+} */
+
+/* input[type='text'],
+input[type='email'] ,
+input[type='password'] ,
+textarea,
+select{
+  display: block;
+  justify-content: center;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428;
+  color: #555;
+  background-color:#fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+} */
+.errors {
+  color: red; 
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* .button{
+  width: 20px;
+  border-radius: 2px;
+} */
