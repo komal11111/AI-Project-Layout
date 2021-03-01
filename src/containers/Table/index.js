@@ -10,9 +10,9 @@ import TableRow from '@material-ui/core/TableRow';
 import styles from '../../components/Tables/tableStyle-jss';
 import { Link } from 'react-router-dom';
 
-
 import MultiSearch from '../../components/MultiSearch'
 import Pagination from '../../components/Tables/pagination'
+import ExportCSV from '../../components/ExportCSV';
 
 const StrippedTable = (props) => {
   const { classes } = props;
@@ -80,7 +80,8 @@ const StrippedTable = (props) => {
       <div styles={{marginTop:16, marginBottom:16 }}>
           <MultiSearch setfilterField={setfilterField} filterField={filterField} applyFilter={applyFilter} 
           />
-        </div> 
+        </div>
+          <ExportCSV data={faultData.data || []}  />
 
       <div className={classes.rootTable}>
         <Table className={classNames(classes.table, classes.stripped)}>

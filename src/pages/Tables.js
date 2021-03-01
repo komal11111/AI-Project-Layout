@@ -2,7 +2,8 @@ import React from "react";
 import { Helmet } from 'react-helmet';
 
 import Layout from "../components/Layout";
-import Tables from "../containers/Table"
+import Tables from "../containers/Table";
+
 
 const Table = () => {
   return (

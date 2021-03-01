@@ -28,7 +28,7 @@ const SignIn = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(state.username === "admin@chipmonk" && state.password === "admin@123") {
+    if(state.username === "admin@chipmonk.in" && state.password === "admin@123") {
       setSubmitting(true);
       history.push("/table");
     }else(
