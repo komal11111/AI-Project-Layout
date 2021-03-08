@@ -17,7 +17,7 @@ const ExportCSV = (props) => {
       <Button variant="contained" >
         <CSVLink
           headers={headers}
-          filename="Event_Voilation_Table.csv"
+          filename="Event_Violation_Table.csv"
           data={data}
         >
           Export CSV
